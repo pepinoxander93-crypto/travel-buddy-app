@@ -1,0 +1,21 @@
+name: travel_buddy
+description: A modern travel planner app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.1
+  url_launcher: ^6.2.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/travel_buddy.png
